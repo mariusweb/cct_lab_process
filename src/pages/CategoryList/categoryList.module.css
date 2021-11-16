@@ -2,3 +2,7 @@
   list-style: none;
   padding-left: 0;
 }
+.collapse {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}

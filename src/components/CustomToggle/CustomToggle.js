@@ -3,9 +3,7 @@ import { useAccordionButton } from "react-bootstrap/AccordionButton";
 import styles from "./customToggle.module.css";
 
 const Customtoggle = ({ eventKey, title, setToggle }) => {
-  const decoratedOnClick = useAccordionButton(eventKey, () =>
-    console.log("totally custom!")
-  );
+  const decoratedOnClick = useAccordionButton(eventKey, () => null);
 
   return (
     <div onClick={decoratedOnClick} className={styles.customDiv}>

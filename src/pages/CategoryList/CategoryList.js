@@ -11,7 +11,7 @@ export default function CategoryList() {
     <div>
       <ul className={styles.ul}>
         <Container>
-          <Accordion>
+          <Accordion className={styles.collapse}>
             {CategoryListData.map((data) => {
               return <Category data={data} key={data.step} />;
             })}
