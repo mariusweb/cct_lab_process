@@ -1,0 +1,30 @@
+[
+    {
+        "step": 1,
+        "name": "Build test task",
+        "subCategory": [
+            "Create repository", "Implement designs", "Implement functionalitry"
+        ]
+    },
+    {
+        "step": 2,
+        "name": "Submit your test task",
+        "subCategory": [
+            "Open email client", "Sent link with information to careers@cornenrcasetech.com"
+        ]
+    },
+    {
+        "step": 3,
+        "name": "Participate in tech interview",
+        "subCategory": [
+            "Talk with HR", "Talk with Tech team"
+        ]
+    },
+    {
+        "step": 4,
+        "name": "Receive answer",
+        "subCategory": [
+            "Receive answers", "Start your IT career"
+        ]
+    }
+]

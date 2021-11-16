@@ -1,0 +1,26 @@
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0f2b36;
+}
+.span {
+  background: linear-gradient(#01a9a7, #01ba8a);
+  padding: 10px 17px;
+  margin: 10px;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  /* #01a9a7 */
+  /* #01ba8a */
+}
+.bottomBorder {
+  /* #00adaa */
+  /* 200px
+  300px */
+}
+.icon {
+  /* #00adaa */
+}
+.customDiv {
+  margin-top: 10px;
+}

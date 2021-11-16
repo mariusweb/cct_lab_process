@@ -2,13 +2,13 @@ import CategoryList from './CategoryList/CategoryList';
 import ErrorPage from './ErrorPage/ErrorPage';
 
 export {
-    ErrorPage,
-    CategoryList
+    CategoryList,
+    ErrorPage
 };
 
 const Pages = {
-    ErrorPage,
-    CategoryList
+    CategoryList,
+    ErrorPage
 };
 
 export default Pages;
