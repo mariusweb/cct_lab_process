@@ -14,7 +14,7 @@ const SubCategory = ({ subCategory }) => {
       {regexp.test(subCategory) ? (
         <p>
           Sent link with information to{" "}
-          <span className="link">careers@cornenrcasetech.com</span>
+          <span className="link">careers@cornercasetech.com</span>
         </p>
       ) : (
         <p>{subCategory}</p>
