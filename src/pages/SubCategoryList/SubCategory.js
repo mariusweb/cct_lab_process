@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./subCategory.module.css";
 
 const SubCategory = ({ subCategory }) => {
-  let regexp = /careers@cornenrcasetech.com/;
+  let regexp = /careers@cornercasetech.com/;
   return (
     <li className={styles.li}>
       <FontAwesomeIcon
