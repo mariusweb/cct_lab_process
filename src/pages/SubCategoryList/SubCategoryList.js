@@ -1,9 +1,10 @@
 import React from "react";
 import SubCategory from "./SubCategory";
+import styles from "./subCategoryList.module.css";
 
 const SubCategoryList = ({ subCategories }) => {
   return (
-    <ul>
+    <ul className={styles.ul}>
       {subCategories.map((sub, index) => {
         return <SubCategory subCategory={sub} key={index + 1} />;
       })}

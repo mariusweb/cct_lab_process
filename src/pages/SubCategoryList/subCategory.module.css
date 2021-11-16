@@ -1,0 +1,8 @@
+.li {
+  list-style: none;
+  display: flex;
+}
+.icon {
+  margin-right: 15px;
+  font-size: 1.5rem;
+}
